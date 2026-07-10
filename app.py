@@ -33,9 +33,18 @@ def get_movie_name(i):
     else:
         return df.loc[i, 'title']
 
-name = st.selectbox("Select Movie You Watched", names)
+name = st.selectbox(
+    "🎬 Search Movie",
+    names,
+    help="Type or select your favourite movie."
+)
 
-if st.button("Recommend"):
+recommend = st.button(
+    "✨ Recommend Movies",
+    use_container_width=True
+)
+
+if recommend:
 
     index = get_movie_index(name)
     if index == -1:
