@@ -120,25 +120,6 @@ streamlit run app1.py
 
 ---
 
-# 📸 Screenshots
-
-## Home Page
-
-(Add Screenshot)
-
----
-
-## Recommendation Result
-
-(Add Screenshot)
-
----
-
-## Modern UI
-
-(Add Screenshot)
-
----
 
 # 📊 Dataset
 
