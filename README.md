@@ -54,20 +54,25 @@ The system recommends the movies having the highest cosine similarity score with
 
 # 📂 Project Structure
 
-```
 Movie-Recommendation-System/
 │
-├── app.py                      # Alternative UI / Backup version
-├── app1.py                     # Main Streamlit application
-├── movie_dict.pkl              # Movie dataset
-├── similarity.pkl              # Cosine similarity matrix
-├── requirements.txt
+├── .gitignore
 ├── README.md
-└── screenshots/
-      ├── home.png
-      ├── recommendation.png
-      └── ui.png
-```
+├── requirements.txt
+│
+├── app.py                    # Main Streamlit application
+├── app1.py                   # Alternative/Backup Streamlit application
+├── NLPFunctions.py           # NLP helper functions
+│
+├── similarities.pkl          # Cosine similarity matrix
+├── final_data.csv            # Processed dataset
+├── data.csv                  # Intermediate dataset
+├── tmdb_5000_movies.csv      # Original dataset
+├── tmdb_5000_credits.csv     # Original dataset
+│
+├── 1. Data Preprocessing.ipynb
+├── 2. Data Preparation.ipynb
+└── 3. Implementation.ipynb
 
 ---
 
