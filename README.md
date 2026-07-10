@@ -52,7 +52,6 @@ The system recommends the movies having the highest cosine similarity score with
 
 ---
 
-# 📂 Project Structure
 
 # 📂 Project Structure
 
