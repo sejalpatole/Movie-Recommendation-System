@@ -586,3 +586,5 @@ Made with ❤️ by Sejal Patole
 </div>
 
 """, unsafe_allow_html=True)
+
+# python -m streamlit run app1.py
