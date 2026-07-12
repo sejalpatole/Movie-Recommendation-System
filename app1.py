@@ -587,4 +587,6 @@ Made with ❤️ by Sejal Patole
 
 """, unsafe_allow_html=True)
 
+
+# to run the app use this line given below:-
 # python -m streamlit run app1.py
