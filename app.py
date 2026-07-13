@@ -58,3 +58,6 @@ if recommend:
         print("Predicted next 5 movies")
         for i in range(1, 6):
             st.write(str(i) + ". " + get_movie_name(similarity_index[i][0]))
+
+# to run the app use this line given below:-
+# python -m streamlit run app.py
