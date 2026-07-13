@@ -204,7 +204,7 @@ pickle
 
 AI & Machine Learning Student
 
-Passionate about:
+Passionate about:-
 - Machine Learning
 - Data Science
 - Python Development
